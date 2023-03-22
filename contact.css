@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90rem;
+    width: 90rem;
+    overflow: hidden;
+}
+
+.contactbox {
+
+    width: 86rem;
+    height: 40rem;
+    color: black;
+    background: #e3d5d5;
+    border-radius: 120px 120px 120px 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactbox h3 {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+/* ===========================================
+Responsive Codes 
+======================================= */
+
+/* 980px  */
+/* @media (max-width: 62em) {
+    .contactbox h3 {
+        font-size: 23px;
+        padding-bottom: 4px;
+
+    }
+
+} */
+
+@media (max-width: 35em) {
+    .contactbox {
+
+        width: 40rem;
+        height: 30rem;
+        color: black;
+        background: #e3d5d5;
+        border-radius: 120px 120px 120px 120px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30rem;
+        width: 40rem;
+        overflow: hidden;
+    }
+    .contactbox h3 {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+}
